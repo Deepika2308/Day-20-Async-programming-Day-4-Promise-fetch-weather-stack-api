@@ -1,0 +1,39 @@
+.background{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/482/791/original/sunrise-in-mountains-nature-landscape-background-the-sun-shines-behind-the-mountains-with-the-cool-morning-air-under-the-dawn-sky-morning-view-cartoon-illustration-vector.jpg");
+    background-repeat: no-repeat;
+    width:100vw;
+    min-height:100vh;
+    background-size: cover;
+    opacity:0.8;
+}
+
+.header{
+    opacity:1.0;
+}
+
+.weather-info{
+    background-color: black;
+    border:solid 3px rgb(204, 124, 204);
+    border-radius: 7px;
+    width:60%;
+}
+
+@media (max-width:800px){
+    .weather-info{
+        width:90%;
+        height:50%;
+    }
+}
+
+@media (min-width:670px){
+    .weather-content{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:670px){
+    .today-cast,.wind-info{
+        flex-direction: column;
+    }
+}
+
